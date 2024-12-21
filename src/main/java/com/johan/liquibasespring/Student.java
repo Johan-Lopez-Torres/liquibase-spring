@@ -31,8 +31,11 @@ public class Student implements Serializable {
     private String lastName;
 
 
-    @Column(name = "email", nullable = false)
+    @Column(name = "email_address", nullable = false)
     private String email;
 
+
+    @Column(name = "phone_number")
+    private int phoneNumber;
 
 }
