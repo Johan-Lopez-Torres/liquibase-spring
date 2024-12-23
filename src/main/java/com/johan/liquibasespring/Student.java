@@ -38,4 +38,9 @@ public class Student implements Serializable {
     @Column(name = "phone_number")
     private int phoneNumber;
 
+
+    @Column(name = "city")
+    private int city;
+
+
 }
