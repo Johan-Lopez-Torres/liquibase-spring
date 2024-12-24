@@ -40,7 +40,10 @@ public class Student implements Serializable {
 
 
     @Column(name = "city")
-    private int city;
+    private String city;
+
+    @Column(name = "age")
+    private int age;
 
 
 }
