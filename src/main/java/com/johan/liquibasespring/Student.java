@@ -45,5 +45,11 @@ public class Student implements Serializable {
     @Column(name = "age")
     private int age;
 
+    @Column(name = "sdfsd")
+    private int sdfsd;
+
+
+    @Column(name = "team")
+    private int team;
 
 }

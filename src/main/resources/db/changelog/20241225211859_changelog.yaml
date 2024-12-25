@@ -1,0 +1,9 @@
+databaseChangeLog:
+- changeSet:
+    id: 1735161555335-1
+    author: JOHANPC (generated)
+    changes:
+    - dropColumn:
+        columnName: email
+        tableName: students
+
