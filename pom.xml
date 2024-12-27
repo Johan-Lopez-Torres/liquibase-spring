@@ -66,6 +66,13 @@
             <artifactId>liquibase-hibernate6</artifactId>
             <version>4.28.0</version> <!-- Igual que arriba -->
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.maven.shared/maven-dependency-tree -->
+        <dependency>
+            <groupId>org.apache.maven.shared</groupId>
+            <artifactId>maven-dependency-tree</artifactId>
+            <version>3.2.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>

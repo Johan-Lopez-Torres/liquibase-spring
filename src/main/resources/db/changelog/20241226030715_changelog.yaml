@@ -1,25 +1,7 @@
 databaseChangeLog:
 - changeSet:
-    id: 1735162000996-3
-    author: JOHANPC (generated)
-    changes:
-    - createTable:
-        columns:
-        - column:
-            autoIncrement: true
-            constraints:
-              nullable: false
-              primaryKey: true
-              primaryKeyName: autopPK
-            name: id
-            type: INTEGER
-        - column:
-            name: name
-            type: VARCHAR(255)
-        tableName: autop
-- changeSet:
-    id: 1735162000996-4
-    author: JOHANPC (generated)
+    id: 1735182450974-3
+    author: BodegaKevin (generated)
     changes:
     - createTable:
         columns:
@@ -32,14 +14,12 @@ databaseChangeLog:
             name: id
             type: INTEGER
         - column:
-            constraints:
-              nullable: false
-            name: age
-            type: INTEGER
+            name: nombre
+            type: VARCHAR(255)
         tableName: persona
 - changeSet:
-    id: 1735162000996-5
-    author: JOHANPC (generated)
+    id: 1735182450974-4
+    author: BodegaKevin (generated)
     changes:
     - addColumn:
         columns:
@@ -48,8 +28,8 @@ databaseChangeLog:
             type: integer
         tableName: students
 - changeSet:
-    id: 1735162000996-6
-    author: JOHANPC (generated)
+    id: 1735182450974-5
+    author: BodegaKevin (generated)
     changes:
     - addColumn:
         columns:
@@ -58,8 +38,8 @@ databaseChangeLog:
             type: varchar(255)
         tableName: students
 - changeSet:
-    id: 1735162000996-7
-    author: JOHANPC (generated)
+    id: 1735182450974-6
+    author: BodegaKevin (generated)
     changes:
     - addColumn:
         columns:
@@ -70,8 +50,38 @@ databaseChangeLog:
             type: varchar(255)
         tableName: students
 - changeSet:
-    id: 1735162000996-8
-    author: JOHANPC (generated)
+    id: 1735182450974-7
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: is_deleted
+            type: boolean
+        tableName: students
+- changeSet:
+    id: 1735182450974-8
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: is_deletesdsd
+            type: boolean
+        tableName: students
+- changeSet:
+    id: 1735182450974-9
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: is_deletesdsd2412
+            type: boolean
+        tableName: students
+- changeSet:
+    id: 1735182450974-10
+    author: BodegaKevin (generated)
     changes:
     - addColumn:
         columns:
@@ -80,43 +90,23 @@ databaseChangeLog:
             type: integer
         tableName: students
 - changeSet:
-    id: 1735162000996-9
-    author: JOHANPC (generated)
-    changes:
-    - addColumn:
-        columns:
-        - column:
-            name: sdfsd
-            type: integer
-        tableName: students
-- changeSet:
-    id: 1735162000996-10
-    author: JOHANPC (generated)
-    changes:
-    - addColumn:
-        columns:
-        - column:
-            name: team
-            type: integer
-        tableName: students
-- changeSet:
-    id: 1735162000996-11
-    author: JOHANPC (generated)
+    id: 1735182450974-11
+    author: BodegaKevin (generated)
     changes:
     - dropColumn:
         columnName: email
         tableName: students
 - changeSet:
-    id: 1735162000996-1
-    author: JOHANPC (generated)
+    id: 1735182450974-1
+    author: BodegaKevin (generated)
     changes:
     - modifyDataType:
         columnName: first_name
         newDataType: varchar(255)
         tableName: students
 - changeSet:
-    id: 1735162000996-2
-    author: JOHANPC (generated)
+    id: 1735182450974-2
+    author: BodegaKevin (generated)
     changes:
     - modifyDataType:
         columnName: last_name

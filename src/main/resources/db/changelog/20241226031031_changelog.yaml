@@ -1,0 +1,143 @@
+databaseChangeLog:
+- changeSet:
+    id: 1735182647704-3
+    author: BodegaKevin (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: autopPK
+            name: id
+            type: INTEGER
+        - column:
+            name: name
+            type: VARCHAR(255)
+        tableName: autop
+- changeSet:
+    id: 1735182647704-4
+    author: BodegaKevin (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: cakePK
+            name: id
+            type: INTEGER
+        - column:
+            name: name
+            type: VARCHAR(255)
+        tableName: cake
+- changeSet:
+    id: 1735182647704-5
+    author: BodegaKevin (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: personaPK
+            name: id
+            type: INTEGER
+        - column:
+            constraints:
+              nullable: false
+            name: age
+            type: INTEGER
+        tableName: persona
+- changeSet:
+    id: 1735182647704-6
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: age
+            type: integer
+        tableName: students
+- changeSet:
+    id: 1735182647704-7
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: city
+            type: varchar(255)
+        tableName: students
+- changeSet:
+    id: 1735182647704-8
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            constraints:
+              nullable: false
+            name: email_address
+            type: varchar(255)
+        tableName: students
+- changeSet:
+    id: 1735182647704-9
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: phone_number
+            type: integer
+        tableName: students
+- changeSet:
+    id: 1735182647704-10
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: sdfsd
+            type: integer
+        tableName: students
+- changeSet:
+    id: 1735182647704-11
+    author: BodegaKevin (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: team
+            type: integer
+        tableName: students
+- changeSet:
+    id: 1735182647704-12
+    author: BodegaKevin (generated)
+    changes:
+    - dropColumn:
+        columnName: email
+        tableName: students
+- changeSet:
+    id: 1735182647704-1
+    author: BodegaKevin (generated)
+    changes:
+    - modifyDataType:
+        columnName: first_name
+        newDataType: varchar(255)
+        tableName: students
+- changeSet:
+    id: 1735182647704-2
+    author: BodegaKevin (generated)
+    changes:
+    - modifyDataType:
+        columnName: last_name
+        newDataType: varchar(255)
+        tableName: students
+
